@@ -187,6 +187,10 @@
     width: 410px;
     height: 435px;
     padding: 10px;
+    transition: transform 0.3s ease;
+}
+.product:hover{
+    transform: scale(1.1);
 }
 .ninth{
     text-align: center;
@@ -259,4 +263,10 @@ hr{
     background: rgba(255, 255, 255, 0.15);
     width: 1320px;
     height: 1px;
+}
+button{
+    transition: transform 0.3s ease;
+}
+button:hover{
+    transform: scale(1.1);
 }
